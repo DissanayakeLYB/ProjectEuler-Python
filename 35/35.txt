@@ -1,0 +1,13 @@
+35
+
+1. check the primes
+2. check whether circular primes
+3. collect if true. ignore if not.
+
+1. how to check whether its prime or not - 
+	
+	if a number is divisible by only that number and 1 without a remainder, that number is a prime number.
+	
+	if we consider the integers less than the square root of the number, then if the number is only divisible by 1, that is a prime (expect 1).
+
+	

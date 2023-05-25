@@ -1,0 +1,22 @@
+Pseudocode - 
+
+i = 11
+output = []
+
+while i < 1000
+	addition = 0
+	for x in str(i):
+		addition += (int(x)**5)
+
+	if addition == i:
+		output.append(i)
+
+	i += 1
+
+tried starting i = 11 until 1000 -> no numbers
+tried starting i = 1000 until 10000 -> 2 numbers
+tried starting i = 10000 until 100000 -> 3 numbers
+tried starting i = 100000 until 1000000 -> 1 number
+tried starting i = 1000000 until 2000000 -> no numbers
+
+even the summation of (9**5) *6 (i.e after using for 6 digits), the maximum summation possible is lesser than the minimum number that can be made with 6 digits. therfore considering for only less than 999999 will be more than enough.
